@@ -8,7 +8,7 @@ def simple_quiz():
 
     for i in range(round_count):   
         temp = file_manipulations.get_table_from_file("quiz_file.csv")
-        random_scripture = random.randint(0,24)
+        random_scripture = random.randint(0,27)
         question1 = temp[random_scripture]
 
         string_from_list = ''.join(question1)
