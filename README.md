@@ -9,4 +9,5 @@ Enjoy! :)
 Ver 1.1 -----
 
 - Updated quiz
+- Updated file_manipulations
 - May work with lower python versions (python3 and up, not python2)

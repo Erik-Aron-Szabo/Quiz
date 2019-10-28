@@ -13,7 +13,3 @@ def csv_reader(file_name):
     reader = csv.reader(open(file_name, 'r'))
     data = sum([i for i in reader], [])
     return random.choice(data)
-
-def text_reader(file_name):
-    with open(file_name, 'r') as f:
-        reader = f.readline()
