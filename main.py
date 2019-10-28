@@ -12,7 +12,7 @@ def main():
     elif user_input == 2:
         practice.Scripture_practice()
     elif user_input == 3:
-        print() # under construction
+        print("Not working! Please try another one...") # under construction
     elif user_input == 4:
         quiz_adder.quiz_adder("quiz_file.csv")
     elif user_input == 5:
@@ -27,7 +27,7 @@ def introduction():
     print("----------------------------")
     print("(1) Bible Quiz")
     print("(2) Practice Scriptures")
-    print("(3) Practice Words")
+    print("(3) Practice Words (not working)")
     print("(4) Add New Scriptures")
     print("(5) Quit")
 

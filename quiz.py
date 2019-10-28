@@ -8,7 +8,7 @@ def simple_quiz():
 
     for i in range(round_count):   
         temp = file_manipulations.get_table_from_file("quiz_file.csv")
-        random_scripture = random.randint(0,27)
+        random_scripture = random.randint(1, 28)
         question1 = temp[random_scripture]
 
         string_from_list = ''.join(question1)
@@ -20,8 +20,7 @@ def simple_quiz():
         
         user_answer = input("Which Bible Scripture is it?\n")
 
-
         if user_answer == question1[1]:
             print("Congratulation!")
         time.sleep(5)
-        print(f"The correct answer is: {question1[1]}!\n\n")
+        print("The correct answer is: " + question1[1] + "!\n\n")

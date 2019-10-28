@@ -16,7 +16,7 @@ def Scripture_practice():
         time.sleep(5)
         correct_answer = question1[1]
         print()
-        print(f"The correct answer is: {correct_answer}\n")
+        print("The correct answer is: " + correct_answer)
         if user_answer == correct_answer:
             print("Congratulations!\n\n")
         if user_answer == "0":
